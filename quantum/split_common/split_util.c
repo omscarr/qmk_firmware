@@ -93,7 +93,7 @@ static void keyboard_master_setup(void) {
         set_internal_I2C_pullups();
     }
 #    endif
-#    if defined(RIGHT_HALF_INT_I2C_PULLUPS_OFF)
+#    if !defined(RIGHT_HALF_INT_I2C_PULLUPS_OFF)
     if (!isLeftHand) {
         set_internal_I2C_pullups();
     }
