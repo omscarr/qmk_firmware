@@ -76,7 +76,7 @@
 
 // Shift / Enter setup
 #ifndef SFTENT_KEYS
-#    define SFTENT_KEYS KC_RSFT, KC_TRNS, SFTENT_KEY
+#    define SFTENT_KEYS KC_RSFT, KC_NO, KC_ENT
 #endif
 
 static uint8_t  sc_last  = 0;
